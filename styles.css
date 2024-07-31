@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Changed from 300px to 80% to fit the screen */
+    max-width: 600px; /* Maximum width to prevent it from getting too wide */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+li input {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+li button.save {
+    background: #007bff;
+}
+
+li button.save:hover {
+    background: #0056b3;
+}
+
+li button.edit {
+    background: #ffc107;
+}
+
+li button.edit:hover {
+    background: #e0a800;
+}
+
+li button.remove {
+    background: #dc3545;
+}
+
+li button.remove:hover {
+    background: #c82333;
+}
+
+.hidden {
+    display: none;
+}
